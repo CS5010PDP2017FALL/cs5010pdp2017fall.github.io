@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://course.ccs.neu.edu/cs5010/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="description" content="Northeastern University CS 5010">
+<meta name="author" content="William D Clinger">
+<!-- meta name="keywords" content="software" -->
+
+<title>
+  CS 5010: Program Design Paradigms
+</title>
+
+<link type="text/css" rel="stylesheet" href="./index_files/cs5010.css">
+
+</head>
+
+<body>
+
+<!-- start of specific content -->
+
+<h1 class="center">
+  CS 5010: Program Design Paradigms
+</h1>
+<h2 class="center">
+  Spring 2017
+</h2>
+<nav id="menu">
+  <table>
+    <tbody><tr>
+      <td>
+        <a href="https://course.ccs.neu.edu/cs5010/Info/checklist.html">
+          Pre-Semester Checklist
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://course.ccs.neu.edu/cs5010/Info/structure.html">
+          Course Structure
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://course.ccs.neu.edu/cs5010/Info/communication.html">
+          Communication
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://course.ccs.neu.edu/cs5010/Info/hw.html">
+          Homework Policies
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://course.ccs.neu.edu/cs5010/Info/grading.html">
+          Grading
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://course.ccs.neu.edu/cs5010/Info/cheating.html">
+          Cheating
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://course.ccs.neu.edu/cs5010/Info/racket.html">
+          Why We Use Racket
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://course.ccs.neu.edu/cs5010/Info/style.html">
+          Style Guide
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://course.ccs.neu.edu/cs5010/Info/deliverables.html">
+          Deliverables
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://course.ccs.neu.edu/cs5010/Info/office.html">
+          Office Hours
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="http://piazza.com/northeastern/spring2017/cs5010/home">
+          Piazza
+        </a>
+      </td>
+    </tr>
+  </tbody></table>
+</nav>
+<div id="maincontent">
+  <p class="verticalspace">
+    <strong>
+      CS 5010
+    </strong>
+    is the introductory course for students in the MS program.
+    The course has two distinct objectives.
+    First, it ensures all MS students have developed basic skills
+    in program design, from problem analysis to developing test suites,
+    using several program design paradigms.
+    Second, the course introduces students to programming as a people
+    discipline. Students will work in pairs, present code to review panels,
+    and learn to cope with an evolving code base.
+  </p>
+  <p>
+    Programming takes time, and it usually takes more time
+    than you think.  Most students who have taken the course
+    report spending an average of about 20 hours per week on the
+    programming assignments.  Please take that into account when
+    organizing your time.
+  </p>
+  <p>
+    Before the first meeting of your section, you should
+    do everything listed in the
+    <a href="https://course.ccs.neu.edu/cs5010/Info/checklist.html">
+      pre-semester checklist,
+    </a>
+    including
+    <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps00.html">
+      Problem Set 00.
+    </a>
+  </p>
+  <h2 class="clear">
+    Syllabus:
+  </h2>
+  <div class="center" id="syllabus">
+    <table class="syllabus">
+      <tbody><tr>
+        <th>
+          Module
+        </th>
+        <th>
+          Monday
+        </th>
+        <th>
+          Topic
+        </th>
+        <th>
+          Problem Set
+        </th>
+        <th>
+          Notes
+        </th>
+      </tr>
+      <tr>
+        <td class="narrow">
+          00
+        </td>
+        <td class="narrow">
+          9 Jan
+        </td>
+        <td class="wide">
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module00.html">
+            <strong>
+              How to Learn in This Course
+            </strong>
+          </a>
+        </td>
+        <td class="narrow">
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps00.html">
+            00
+          </a>
+        </td>
+        <td class="medium">
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          01
+        </td>
+        <td>
+          16 Jan
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module01.html">
+            <strong>
+              Function Design Recipe, Part 1
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps01.html">
+            01
+          </a>
+        </td>
+        <td>
+          Monday holiday,<br> makeup Tuesday night
+        </td>
+      </tr>
+      <tr>
+        <td>
+          02
+        </td>
+        <td>
+          23 Jan
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module02.html">
+            <strong>
+              Function Design Recipe, Part 2
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps02.html">
+            02
+          </a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          03
+        </td>
+        <td>
+          30 Jan
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module03.html">
+            <strong>
+              System Design Recipe
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps03.html">
+            03
+          </a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          04
+        </td>
+        <td>
+          6 Feb
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module04.html">
+            <strong>
+              Computing with Lists
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps04.html">
+            04
+          </a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          05
+        </td>
+        <td>
+          13 Feb
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module05.html">
+            <strong>
+              Generalizing Similar Functions
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps05.html">
+            05
+          </a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          06
+        </td>
+        <td>
+          20 Feb
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module06.html">
+            <strong>
+              Trees and Graphs
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps06.html">
+            06
+          </a>
+        </td>
+        <td>
+          Monday holiday,<br> makeup Tuesday night
+        </td>
+      </tr>
+      <tr>
+        <td>
+          07
+        </td>
+        <td>
+          27 Feb
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module07.html">
+            <strong>
+              Contexts and Invariants
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps07.html">
+            07
+          </a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          
+        </td>
+        <td>
+          6 Mar
+        </td>
+        <td>
+          (no classes)
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          spring break
+        </td>
+      </tr>
+      <tr>
+        <td>
+          08
+        </td>
+        <td>
+          13 Mar
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module08.html">
+            <strong>
+              General Recursion and Efficiency
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps08.html">
+            08
+          </a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          09
+        </td>
+        <td>
+          20 Mar
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module09.html">
+            <strong>
+              Interfaces and Classes
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps09.html">
+            09
+          </a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          10
+        </td>
+        <td>
+          27 Mar
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module10.html">
+            <strong>
+              Inheritance
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps10.html">
+            10
+          </a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          11
+        </td>
+        <td>
+          3 Apr
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module11.html">
+            <strong>
+              Objects with Mutable State
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps11.html">
+            11
+          </a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          12
+        </td>
+        <td>
+          10 Apr
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/Modules/module12.html">
+            <strong>
+              Efficiency, Part 2
+            </strong>
+          </a>
+        </td>
+        <td>
+          <a href="https://course.ccs.neu.edu/cs5010/ProblemSets/ps12.html">
+            12
+          </a>
+        </td>
+        <td>
+          
+        </td>
+      </tr>
+      <tr>
+        <td>
+          13
+        </td>
+        <td>
+          17 Apr
+        </td>
+        <td>
+          <i>
+            <strong>
+              Additional Topics
+            </strong>
+          </i>
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          Monday holiday,<br> makeup Tuesday night
+        </td>
+      </tr>
+    </tbody></table>
+  </div>
+  <blockquote class="clear duller fullwidth">
+    <p class="smaller duller">
+      Most of the online materials at this web site were developed
+      by Professor Mitch Wand and other NU faculty, including the
+      instructor and other course staff, and are used here with some
+      changes as permitted by a
+      <a href="https://course.ccs.neu.edu/cs5010/LICENSE">
+        Creative Commons License.
+      </a>
+    </p>
+  </blockquote>
+</div>
+
+<!-- end of specific content -->
+
+<p class="muchsmaller">
+For debugging: 
+<a href="http://validator.w3.org/check/referer">
+Click here to validate.
+</a>
+</p>
+
+
+
+</body></html>
