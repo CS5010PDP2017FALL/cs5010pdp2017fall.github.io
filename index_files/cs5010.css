@@ -22,7 +22,7 @@ body {
 }
 
 body {
-  background-color: #e8f2fc;
+  background-color: #C8FAB3;
   font-family:  "Times New Roman", Times, Georgia, serif;
   font-size: 13pt;
   /*
@@ -88,12 +88,12 @@ audio {
 
 table {
 /*  background-color: #808080;  */
-  background-color: #e8f2fc;
+  background-color: lightgreen;
 }
 
 th {
 /*  background-color: #d8d8d8;  */
-  background-color: #d8e0e8;
+  background-color: #C8FAB3;
   font-family:  "Times New Roman", Times, Georgia, serif; 
   font-size: 12pt;
   margin: 3%;
@@ -102,7 +102,7 @@ th {
 
 td {
 /*  background-color: #d8d8d8;  */
-  background-color: #d8e0e8;
+  background-color: #C8FAB3;
   font-family:  "Times New Roman", Times, Georgia, serif; 
   font-size: 12pt;
   margin: 3%;
