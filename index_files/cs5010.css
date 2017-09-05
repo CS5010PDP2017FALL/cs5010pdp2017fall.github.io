@@ -22,7 +22,7 @@ body {
 }
 
 body {
-  background-color: ivory;
+  background-color: #E9F0F8;
   font-family:  "Times New Roman", Times, Georgia, serif;
   font-size: 13pt;
   /*
@@ -93,7 +93,7 @@ table {
 
 th {
 /*  background-color: #d8d8d8;  */
-  background-color: ivory;
+  background-color: #E9F0F8;
   font-family:  "Times New Roman", Times, Georgia, serif; 
   font-size: 12pt;
   margin: 3%;
@@ -102,7 +102,7 @@ th {
 
 td {
 /*  background-color: #d8d8d8;  */
-  background-color: ivory;
+  background-color: #E9F0F8;
   font-family:  "Times New Roman", Times, Georgia, serif; 
   font-size: 12pt;
   margin: 3%;
